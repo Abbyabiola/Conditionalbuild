@@ -6,8 +6,7 @@ pipeline{
                 branch 'main'
             }
             steps{
-                echo 'main branch deploy code'
-                echo ' buiding artifact from main branch'
+                echo "buiding artifact from main branch"
             }
         }
         stage('develop branch deploy code'){
@@ -15,8 +14,8 @@ pipeline{
                 branch 'develop'
             }
             steps{
-                echo 'Develop branch deploy code'
-                echo ' Buiding artifact from develop branch'
+                echo "buiding artifact branch from branch"
+                echo "deploying code from develop branch"
             }
         }
     }
