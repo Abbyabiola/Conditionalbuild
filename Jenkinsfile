@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('main branch deploy code'){
+        stage('Main branch deploy code'){
             when{
                 branch 'main'
             }
