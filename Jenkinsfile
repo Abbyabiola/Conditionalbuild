@@ -10,6 +10,7 @@ pipeline{
                 echo ' Buiding artifact from main branch'
 
                 echo "buiding artifact from main branch"
+                echo "buiding artifact from main branch"
             }
         }
         stage('develop branch deploy code'){
