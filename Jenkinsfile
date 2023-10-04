@@ -6,6 +6,9 @@ pipeline{
                 branch 'main'
             }
             steps{
+                echo 'main branch deploy code'
+                echo ' Buiding artifact from main branch'
+
                 echo "buiding artifact from main branch"
             }
         }
