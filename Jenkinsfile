@@ -11,7 +11,7 @@ pipeline{
         }
         stage('develop branch deploy code'){
             when{
-                branch 'develop'
+                branch 'Develop'
             }
             steps{
                 echo "buiding artifact branch from branch"
